@@ -30,4 +30,4 @@ COPY data ./data
 EXPOSE 8000
 
 # Single worker keeps in-memory demo OCR state trivial; DB is the source of truth.
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["sh", "-c", "uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000}"]
