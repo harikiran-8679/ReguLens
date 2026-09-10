@@ -1,0 +1,81 @@
+REGISTER CLASSIFICATION (230 records, A0 extraction)
+==============================================================================
+Buckets (A1):
+  image_checkable    116
+  legal_reference    106
+  manual_review        8
+  needs_review         0
+
+Mapped engine kinds (A2, image-checkable records):
+  needs_review                 25
+  unit_known                   19
+  any_present                  18
+  range                        14
+  text_contains                9
+  cross_source                 8
+  always_manual                7
+  prohibition                  6
+  cross_consistency            5
+  date_month_year              3
+  font                         2
+
+Records flagged needs_review: 59
+  [37] LMPC-R4-004: conditional rule has no resolvable underlying check / field token (trigger=).
+  [39] LMPC-R4-001: presence targets carry no engine field token (package_or_label_contains_declarations) — cannot bind to an extracted field.
+  [46] LMPC-R6-012: conditional rule has no resolvable underlying check / field token (trigger=).
+  [56] LMPC-R6-015: conditional rule has no resolvable underlying check / field token (trigger=).
+  [58] LMPC-R6-017: conditional rule has no resolvable underlying check / field token (trigger=).
+  [63] LMPC-R6-022: presence targets carry no engine field token (top_of_principal_display_panel) — cannot bind to an extracted field.
+  [68] LMPC-R6-027: calculation rule is a derived-quantity / table-threshold computation needing measured or sample inputs, not a single-field range check.
+  [69] LMPC-R6-028: conditional rule has no resolvable underlying check / field token (trigger=).
+  [70] LMPC-R7-001: conditional rule has no resolvable underlying check / field token (trigger=package_capacity <= 10_cm3).
+  [75] LMPC-R7-008: calculation rule is a derived-quantity / table-threshold computation needing measured or sample inputs, not a single-field range check.
+  [76] LMPC-R7-009: calculation rule is a derived-quantity / table-threshold computation needing measured or sample inputs, not a single-field range check.
+  [77] LMPC-R7-010: calculation rule is a derived-quantity / table-threshold computation needing measured or sample inputs, not a single-field range check.
+  [78] LMPC-R7-011: calculation rule is a derived-quantity / table-threshold computation needing measured or sample inputs, not a single-field range check.
+  [80] LMPC-R8-001: legibility/prominence is an image-quality judgement; the register provides no numeric threshold.
+  [81] LMPC-R8-002: legibility/prominence is an image-quality judgement; the register provides no numeric threshold.
+  [82] LMPC-R9-001: legibility/prominence is an image-quality judgement; the register provides no numeric threshold.
+  [83] LMPC-R9-003: conditional rule has no resolvable underlying check / field token (trigger=information_blown_formed_or_moulded_on_glass_or_plastic).
+  [84] LMPC-R9-004: legibility/prominence is an image-quality judgement; the register provides no numeric threshold.
+  [85] LMPC-R9-002: legibility/prominence is an image-quality judgement; the register provides no numeric threshold.
+  [86] LMPC-R9-005: legibility/prominence is an image-quality judgement; the register provides no numeric threshold.
+  [87] LMPC-R9-006: conditional rule has no resolvable underlying check / field token (trigger=outer_container_or_wrapper_present).
+  [88] LMPC-R9-007: language-format rule needs an explicit pattern.
+  [89] LMPC-R10-001: presence targets carry no engine field token () — cannot bind to an extracted field.
+  [92] LMPC-R11-004: conditional rule has no resolvable underlying check / field token (trigger=significant_environmental_or_other_variation).
+  [93] LMPC-R11-001: calculation rule is a derived-quantity / table-threshold computation needing measured or sample inputs, not a single-field range check.
+  [94] LMPC-R11-002: conditional rule has no resolvable underlying check / field token (trigger=no_environmental_variation_likely).
+  [95] LMPC-R11-003: conditional rule has no resolvable underlying check / field token (trigger=environmental_variation_likely_and_negligible).
+  [103] LMPC-R12-008: conditional rule has no resolvable underlying check / field token (trigger=weight_measure_or_number_alone_insufficient_for_full_information).
+  [104] LMPC-R12-009: legibility/prominence is an image-quality judgement; the register provides no numeric threshold.
+  [105] LMPC-R12-010: format rule (text_targets=) has no explicit pattern/accepted-forms enum usable by the engine.
+  [106] LMPC-R12-011: conditional rule has no resolvable underlying check / field token (trigger=very_small_package_as_defined_in_version).
+  [115] LMPC-R13-013: conditional rule has no resolvable underlying check / field token (trigger=exact_unit_boundary).
+  [121] LMPC-R13-014: format rule (text_targets=) has no explicit pattern/accepted-forms enum usable by the engine.
+  [122] LMPC-R13-016: format rule (text_targets=) has no explicit pattern/accepted-forms enum usable by the engine.
+  [123] LMPC-R13-017: format rule (text_targets=) has no explicit pattern/accepted-forms enum usable by the engine.
+  [124] LMPC-R14-001: presence targets carry no engine field token () — cannot bind to an extracted field.
+  [125] LMPC-R14-002: conditional rule has no resolvable underlying check / field token (trigger=package_contains_more_than_one_piece_with_different_dimensions).
+  [126] LMPC-R14-003: conditional rule has no resolvable underlying check / field token (trigger=individual_piece_marking_required).
+  [127] LMPC-R15-001: conditional rule has no resolvable underlying check / field token (trigger=dimensions_or_weight_has_relationship_to_price).
+  [128] LMPC-R16-001: presence targets carry no engine field token () — cannot bind to an extracted field.
+  [129] LMPC-R17-001: format rule (text_targets=) has no explicit pattern/accepted-forms enum usable by the engine.
+  [130] LMPC-R17-002: format rule (text_targets=) has no explicit pattern/accepted-forms enum usable by the engine.
+  [131] LMPC-R17-003: format rule (text_targets=) has no explicit pattern/accepted-forms enum usable by the engine.
+  [132] LMPC-R17-004: conditional rule has no resolvable underlying check / field token (trigger=use_related_to_label_reference).
+  [133] LMPC-R18-001: conditional rule has no resolvable underlying check / field token (trigger=).
+  [134] LMPC-R18-008: conditional rule has no resolvable underlying check / field token (trigger=wholesale_dealer).
+  [138] LMPC-R18-004: conditional rule has no resolvable underlying check / field token (trigger=).
+  [141] LMPC-R18-007: conditional rule has no resolvable underlying check / field token (trigger=).
+  [150] LMPC-R19-009: calculation rule is a derived-quantity / table-threshold computation needing measured or sample inputs, not a single-field range check.
+  [168] LMPC-R22-001: calculation rule is a derived-quantity / table-threshold computation needing measured or sample inputs, not a single-field range check.
+  [169] LMPC-R22-002: calculation rule is a derived-quantity / table-threshold computation needing measured or sample inputs, not a single-field range check.
+  [170] LMPC-R22-003: calculation rule is a derived-quantity / table-threshold computation needing measured or sample inputs, not a single-field range check.
+  [171] LMPC-R22-004: calculation rule is a derived-quantity / table-threshold computation needing measured or sample inputs, not a single-field range check.
+  [172] LMPC-R22-005: conditional rule has no resolvable underlying check / field token (trigger=when_packed_commodity).
+  [224] LMPC-S01-001: calculation rule is a derived-quantity / table-threshold computation needing measured or sample inputs, not a single-field range check.
+  [226] LMPC-S03-001: conditional rule has no resolvable underlying check / field token (trigger=commodity_in_Third_Schedule).
+  [227] LMPC-S04-001: conditional rule has no resolvable underlying check / field token (trigger=).
+  [228] LMPC-S05-001: calculation rule is a derived-quantity / table-threshold computation needing measured or sample inputs, not a single-field range check.
+  [229] LMPC-S06-001: calculation rule is a derived-quantity / table-threshold computation needing measured or sample inputs, not a single-field range check.

@@ -1,0 +1,43 @@
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node.js
+node_modules/
+dist/
+
+# Frontend build
+frontend/dist/
+
+# Local application storage
+data/storage/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Vercel
+.vercel/

@@ -1,0 +1,50 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: lm_inspection_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: lm_app
+      POSTGRES_PASSWORD: lm_secret_dev
+      POSTGRES_DB: lm_inspection
+    ports:
+      - "5433:5432"
+    volumes:
+      - lm_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U lm_app -d lm_inspection"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  api:
+    build: ./backend
+    container_name: lm_inspection_api
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql+psycopg://lm_app:lm_secret_dev@db:5432/lm_inspection
+      JWT_SECRET: dev-only-change-me-please-0123456789abcdef
+      JWT_ALGORITHM: HS256
+      ACCESS_TOKEN_EXPIRE_MINUTES: 480
+      # PaddleOCR is the primary engine; when it is unavailable (as in this
+      # image) the chain falls back to Tesseract and flags it per image — see
+      # services/ocr.run_ocr_with_fallback. Set OCR_ENGINE=demo for the offline
+      # simulated mode (labelled "PaddleOCR (simulated)").
+      OCR_ENGINE: paddle
+      FIELD_MATCHER: demo
+      STORAGE_DIR: /app/data/storage
+      UPLOAD_MAX_MB: 15
+      CORS_ORIGINS: http://localhost:5173,http://127.0.0.1:5173,http://localhost:5174,http://127.0.0.1:5174
+      SEED_DEMO_DATA: "true"
+    ports:
+      - "8000:8000"
+    volumes:
+      - lm_storage:/app/data/storage
+      - ./backend/app:/app/app          # live-reload dev: local edits visible in container
+
+volumes:
+  lm_pgdata:
+  lm_storage:

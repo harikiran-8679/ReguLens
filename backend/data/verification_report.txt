@@ -1,0 +1,134 @@
+  Total corrections applied: 132
+  FIXED LMPC-R1-001: kind: None → reference
+  FIXED LMPC-R1-002: kind: None → reference
+  FIXED LMPC-R2-001: kind: None → reference
+  FIXED LMPC-R2-002: kind: None → reference
+  FIXED LMPC-R2-003: kind: None → reference
+  FIXED LMPC-R2-004: kind: None → reference
+  FIXED LMPC-R2-005: kind: None → reference
+  FIXED LMPC-R2-006: kind: None → reference
+  FIXED LMPC-R2-007: kind: None → reference
+  FIXED LMPC-R3-001: kind: None → reference
+  FIXED LMPC-R3-002: kind: None → reference
+  FIXED LMPC-R3-003: kind: None → reference
+  FIXED LMPC-R4-003: bucket: image_checkable → legal_reference, kind: any_present → reference
+  FIXED LMPC-R4-004: bucket: image_checkable → legal_reference, kind: needs_review → reference
+  FIXED LMPC-R5-001: kind: None → reference
+  FIXED LMPC-R6-002: kind: any_present → presence
+  FIXED LMPC-R6-003: kind: any_present → presence
+  FIXED LMPC-R6-004: kind: date_month_year → presence
+  FIXED LMPC-R6-005: kind: date_month_year → format_mrp
+  FIXED LMPC-R6-006: kind: text_contains → date_month_year
+  FIXED LMPC-R6-007: bucket: image_checkable → legal_reference, kind: any_present → reference
+  FIXED LMPC-R6-008: kind: cross_consistency → any_present
+  FIXED LMPC-R6-009: kind: any_present → text_contains
+  FIXED LMPC-R6-010: kind: date_month_year → presence
+  FIXED LMPC-R6-011: kind: any_present → always_manual
+  FIXED LMPC-R6-012: kind: needs_review → always_manual
+  FIXED LMPC-R6-013: kind: any_present → always_manual
+  FIXED LMPC-R6-014: kind: any_present → always_manual
+  FIXED LMPC-R6-015: kind: needs_review → always_manual
+  FIXED LMPC-R6-016: kind: cross_consistency → always_manual
+  FIXED LMPC-R6-017: bucket: image_checkable → legal_reference, kind: needs_review → reference
+  FIXED LMPC-R6-018: kind: None → reference
+  FIXED LMPC-R6-019: bucket: image_checkable → legal_reference, kind: any_present → reference
+  FIXED LMPC-R6-020: bucket: manual_review → legal_reference, kind: always_manual → reference
+  FIXED LMPC-R6-021: bucket: manual_review → legal_reference, kind: always_manual → reference
+  FIXED LMPC-R6-022: bucket: image_checkable → legal_reference, kind: any_present → reference
+  FIXED LMPC-R6-023: bucket: manual_review → legal_reference, kind: always_manual → reference
+  FIXED LMPC-R6-026: bucket: image_checkable → legal_reference, kind: cross_source → reference
+  FIXED LMPC-R6-027: bucket: image_checkable → manual_review, kind: range → always_manual
+  FIXED LMPC-R6-028: bucket: image_checkable → legal_reference, kind: needs_review → reference
+  FIXED LMPC-R7-001: bucket: image_checkable → legal_reference, kind: needs_review → reference
+  MISSING: LMPC-R7-006 not in classified JSON
+  FIXED LMPC-R7-008: bucket: image_checkable → legal_reference, kind: range → reference
+  FIXED LMPC-R7-009: bucket: image_checkable → legal_reference, kind: range → reference
+  FIXED LMPC-R7-010: bucket: image_checkable → legal_reference, kind: range → reference
+  FIXED LMPC-R7-011: bucket: image_checkable → legal_reference, kind: range → reference
+  FIXED LMPC-R8-001: bucket: image_checkable → legal_reference, kind: always_manual → reference
+  FIXED LMPC-R8-002: bucket: image_checkable → legal_reference, kind: always_manual → reference
+  FIXED LMPC-R9-001: bucket: image_checkable → manual_review
+  FIXED LMPC-R9-002: bucket: image_checkable → manual_review
+  FIXED LMPC-R9-003: bucket: image_checkable → legal_reference, kind: needs_review → reference
+  FIXED LMPC-R9-004: bucket: image_checkable → legal_reference, kind: always_manual → reference
+  FIXED LMPC-R10-002: kind: None → reference
+  FIXED LMPC-R10-003: kind: cross_source → presence
+  FIXED LMPC-R11-001: bucket: image_checkable → legal_reference, kind: range → reference
+  FIXED LMPC-R11-002: bucket: image_checkable → legal_reference, kind: needs_review → reference
+  FIXED LMPC-R11-003: bucket: image_checkable → legal_reference, kind: needs_review → reference
+  FIXED LMPC-R11-004: bucket: image_checkable → legal_reference, kind: needs_review → reference
+  FIXED LMPC-R12-001: kind: unit_known → presence
+  FIXED LMPC-R12-007: kind: None → reference
+  FIXED LMPC-R12-008: bucket: image_checkable → legal_reference, kind: needs_review → reference
+  FIXED LMPC-R12-009: kind: always_manual → range, mapping updated
+  FIXED LMPC-R12-010: kind: text_contains → unit_known
+  FIXED LMPC-R12-011: bucket: image_checkable → legal_reference, kind: needs_review → reference
+  FIXED LMPC-R13-012: kind: unit_known → prohibition
+  FIXED LMPC-R13-013: bucket: image_checkable → legal_reference, kind: needs_review → reference
+  FIXED LMPC-R13-014: kind: text_contains → unit_known
+  FIXED LMPC-R13-016: kind: text_contains → unit_known
+  FIXED LMPC-R13-017: bucket: image_checkable → legal_reference, kind: text_contains → reference
+  FIXED LMPC-R14-001: bucket: image_checkable → legal_reference, kind: any_present → reference
+  FIXED LMPC-R14-002: bucket: image_checkable → legal_reference, kind: needs_review → reference
+  FIXED LMPC-R14-003: bucket: image_checkable → legal_reference, kind: needs_review → reference
+  FIXED LMPC-R15-001: bucket: image_checkable → legal_reference, kind: needs_review → reference
+  FIXED LMPC-R16-001: bucket: image_checkable → legal_reference, kind: any_present → reference
+  FIXED LMPC-R17-001: bucket: image_checkable → legal_reference, kind: text_contains → reference
+  FIXED LMPC-R17-002: bucket: image_checkable → legal_reference, kind: text_contains → reference
+  FIXED LMPC-R17-003: bucket: image_checkable → legal_reference, kind: text_contains → reference
+  FIXED LMPC-R17-004: bucket: image_checkable → legal_reference, kind: needs_review → reference
+  FIXED LMPC-R18-001: bucket: image_checkable → legal_reference, kind: needs_review → reference
+  FIXED LMPC-R18-002: bucket: image_checkable → manual_review, kind: cross_consistency → always_manual
+  FIXED LMPC-R18-004: bucket: image_checkable → legal_reference, kind: needs_review → reference
+  FIXED LMPC-R18-005: kind: cross_consistency → text_contains
+  FIXED LMPC-R18-006: kind: prohibition → format_mrp
+  FIXED LMPC-R18-007: bucket: image_checkable → legal_reference, kind: needs_review → reference
+  FIXED LMPC-R18-008: bucket: image_checkable → legal_reference, kind: needs_review → reference
+  FIXED LMPC-R19-001: kind: None → reference
+  FIXED LMPC-R19-002: kind: None → reference
+  FIXED LMPC-R19-003: bucket: manual_review → legal_reference, kind: always_manual → reference
+  FIXED LMPC-R19-004: kind: None → reference
+  FIXED LMPC-R19-005: kind: None → reference
+  FIXED LMPC-R19-006: bucket: manual_review → legal_reference, kind: always_manual → reference
+  FIXED LMPC-R19-007: kind: None → reference
+  FIXED LMPC-R19-008: kind: None → reference
+  FIXED LMPC-R19-009: bucket: image_checkable → legal_reference, kind: range → reference
+  FIXED LMPC-R19-010: kind: None → reference
+  FIXED LMPC-R19-011: kind: None → reference
+  FIXED LMPC-R19-012: kind: None → reference
+  FIXED LMPC-R19-013: kind: None → reference
+  FIXED LMPC-R20-001: kind: None → reference
+  FIXED LMPC-R20-002: bucket: manual_review → legal_reference, kind: always_manual → reference
+  FIXED LMPC-R21-001: kind: None → reference
+  FIXED LMPC-R21-002: kind: None → reference
+  FIXED LMPC-R21-003: kind: None → reference
+  FIXED LMPC-R21-004: kind: None → reference
+  FIXED LMPC-R22-001: bucket: image_checkable → legal_reference, kind: range → reference
+  FIXED LMPC-R22-002: bucket: image_checkable → legal_reference, kind: range → reference
+  FIXED LMPC-R22-003: bucket: image_checkable → legal_reference, kind: range → reference
+  FIXED LMPC-R22-004: bucket: image_checkable → legal_reference, kind: range → reference
+  FIXED LMPC-R22-005: bucket: image_checkable → legal_reference, kind: needs_review → reference
+  FIXED LMPC-R24-001: kind: any_present → presence
+  FIXED LMPC-R24-003: kind: any_present → presence
+  FIXED LMPC-R27-001: kind: None → reference
+  FIXED LMPC-R27-002: kind: None → reference
+  FIXED LMPC-R27-003: kind: None → reference
+  FIXED LMPC-R27-004: kind: None → reference
+  FIXED LMPC-R27-005: kind: None → reference
+  FIXED LMPC-R27-006: kind: None → reference
+  FIXED LMPC-R27-007: kind: None → reference
+  FIXED LMPC-R27-008: kind: None → reference
+  FIXED LMPC-R27-009: kind: None → reference
+  FIXED LMPC-R27-010: kind: None → reference
+  FIXED LMPC-R27-011: kind: None → reference
+  FIXED LMPC-R28-001: kind: None → reference
+  FIXED LMPC-R28-002: kind: None → reference
+  FIXED LMPC-R34-001: kind: None → reference
+  FIXED LMPC-R34-002: kind: None → reference
+  FIXED LMPC-S01-001: bucket: image_checkable → legal_reference, kind: range → reference
+  FIXED LMPC-S02-001: kind: None → reference
+  FIXED LMPC-S03-001: bucket: image_checkable → legal_reference, kind: needs_review → reference
+  FIXED LMPC-S04-001: bucket: image_checkable → legal_reference, kind: needs_review → reference
+  FIXED LMPC-S05-001: bucket: image_checkable → legal_reference, kind: range → reference
+  FIXED LMPC-S06-001: bucket: image_checkable → legal_reference, kind: range → reference
+  FIXED LMPC-S07-001: bucket: manual_review → legal_reference, kind: always_manual → reference
