@@ -40,7 +40,13 @@ async function request(path: string, options: RequestInit = {}): Promise<any> {
   if (options.body && !(options.body instanceof FormData)) {
     headers["Content-Type"] = "application/json";
   }
-  const res = await fetch(`/api${path}`, { ...options, headers });
+  const API_BASE_URL =
+    import.meta.env.VITE_API_BASE_URL || "/api";
+
+  const res = await fetch(`${API_BASE_URL}${path}`, {
+    ...options,
+    headers,
+  });
   if (res.status === 401) {
     clearSession();
     window.location.href = "/login/inspector";
